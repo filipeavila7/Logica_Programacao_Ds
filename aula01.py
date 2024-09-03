@@ -6,3 +6,4 @@ dt = int(dt)
 print("seu nome é:", nome)
 print("seu cpf é:", cpf)
 print("sua data de nascimento é:", dt)
+
