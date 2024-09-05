@@ -30,6 +30,7 @@ print(lista)
 '''
 if condicao:
     resultado
+    
 else:
     resultado
 '''
