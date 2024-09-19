@@ -6,5 +6,6 @@ for i in range(x,-1, -1):
     os.system('cls')
     print(f'carregando {i}..')
     sleep(1)
+
     
 print('auto destruição da máquina!')
