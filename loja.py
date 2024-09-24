@@ -46,6 +46,7 @@ while True:
         print(f'o valor total do estoque é: {valortt}')
     
     elif opcao == '5':
+        print('saindo..')
         break
        
 
