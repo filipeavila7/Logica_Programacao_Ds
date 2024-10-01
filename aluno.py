@@ -2,8 +2,9 @@ alunos = {}
 while True:
     print()
     print(30 * '=', 'MENU', 30 * '=' )
-    print('1. cadastrar alunos e mostrar a media')
-    print('2. listar alunos')
+    print('1. cadastrar alunos')
+    print('2. listar alunos e calcular media')
+    print('3. sair')
     print()
     opcao = input('digite uma opção:')
 
@@ -23,7 +24,12 @@ while True:
     elif opcao == '2':
         for chave, dados in alunos.items():
             print(f'matricula: {chave}, nome: {dados['nome']}, portugues: {dados['portugues']}, matematica: {dados['matematica']}, python: {dados['python']}, media: {dados['media']:.2f}')
-        
+           
+
+    elif opcao == '3':
+        print('saindo...')
+        break
+
 
    
    
